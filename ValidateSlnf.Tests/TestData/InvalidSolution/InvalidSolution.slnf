@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "InvalidSolution.sln",
+    "projects": [
+      "Project1\\Project1.csproj",
+      "Project2\\Project2.csproj",
+      "Project3\\Project3.csproj"
+    ]
+  }
+}
