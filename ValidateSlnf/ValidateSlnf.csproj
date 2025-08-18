@@ -8,7 +8,7 @@
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>validate-slnf</ToolCommandName>
     <PackageId>validate-slnf</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>Drew Noakes</Authors>
     <Description>A .NET tool to validate that Visual Studio Solution Filter (.slnf) files have not fallen out of date</Description>
     <PackageTags>dotnet;tool;slnf;solution;filter;validation</PackageTags>
