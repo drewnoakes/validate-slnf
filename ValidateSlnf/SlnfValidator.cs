@@ -63,7 +63,12 @@ public class SlnfValidator
         }
         
         var slnfJson = _fileSystem.ReadAllText(slnfFilePath);
-        var slnf = JsonSerializer.Deserialize<SlnfFile>(slnfJson) ?? 
+        var options = new JsonSerializerOptions
+        {
+            ReadCommentHandling = JsonCommentHandling.Skip,
+            AllowTrailingCommas = true
+        };
+        var slnf = JsonSerializer.Deserialize<SlnfFile>(slnfJson, options) ?? 
             throw new InvalidOperationException($"Failed to parse SLNF file: {slnfFilePath}");
         
         var slnfDirectory = _fileSystem.GetDirectoryName(slnfFilePath);
