@@ -12,7 +12,7 @@
     <Authors>Drew Noakes</Authors>
     <Description>A .NET tool to validate that Visual Studio Solution Filter (.slnf) files have not fallen out of date</Description>
     <PackageTags>dotnet;tool;slnf;solution;filter;validation</PackageTags>
-    <RepositoryUrl>https://github.com/yourusername/validate-slnf</RepositoryUrl>
+    <RepositoryUrl>https://github.com/drewnoakes/validate-slnf</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     
